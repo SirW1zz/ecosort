@@ -1,0 +1,31 @@
+name: greencnote
+description: A Flutter app for waste classification using Google Cloud Vision API.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.0+1  # For camera functionality
+  http: ^0.13.5  # For making API requests to Google Cloud Vision
+  path_provider: ^2.0.11  # For file paths
+  path: ^1.8.2  # For file handling
+  googleapis_auth: ^1.3.0  # For Google API authentication
+  googleapis: ^11.0.0  # For Google Cloud Vision API
+  cupertino_icons: ^1.0.2  # For Cupertino icons
+  confetti: ^0.7.0  # For confetti animations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0  # For linting and code quality
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/hackathon-453800-912f640e9ba6.json  # Include your API key file (if needed)

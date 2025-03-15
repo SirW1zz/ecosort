@@ -1,0 +1,2 @@
+Level 1 Labels: {0: 'biodegradable', 1: 'non_biodegradable'}
+Level 2 Labels: {0: 'subcategory_1', 1: 'subcategory_2', 2: 'subcategory_3', ...}
