@@ -46,4 +46,4 @@ This app was developed as a part of the HACKS'US Hackathon event conducted at Ra
 
 Project files :
 ( this version on GitHub does not feature full functionality )
-https://github.com/SirW1zz/ecosort.git
+
